@@ -7,7 +7,12 @@ Workflow Completo - Script principal para executar todo o processo
 
 import os
 import sys
+import argparse
 from datetime import datetime
+
+# Ensure imports work regardless of where script is run from
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from blog_scraper import BlogScraper
 from ai_rewriter import AIRewriter
 from content_manager import ContentManager
@@ -48,39 +53,54 @@ def check_api_key():
 def main():
     """Executa o workflow completo"""
     
-    print_header("🚀 WORKFLOW COMPLETO DE CONTEÚDO - VIAJE MAIS TOUR")
+    parser = argparse.ArgumentParser(description="Workflow de Automação de Blog")
+    parser.add_argument("--headless", action="store_true", help="Executar sem interação do usuário (usando padrões)")
+    parser.add_argument("--posts-per-site", type=int, default=15, help="Número de posts por site")
+    parser.add_argument("--posts-per-week", type=int, default=3, help="Posts por semana")
+    parser.add_argument("--style", type=str, default="informativo_engajador", help="Estilo de escrita")
     
-    print("Este script irá:")
-    print("  1. Fazer scraping dos blogs concorrentes")
-    print("  2. Reescrever o conteúdo com IA (Gemini)")
-    print("  3. Criar calendário editorial")
-    print("  4. Exportar posts prontos para publicação\n")
+    args = parser.parse_args()
+    
+    print_header("🚀 WORKFLOW COMPLETO DE CONTEÚDO - VIAJE MAIS TOUR")
     
     # Configurações
     print("⚙️  CONFIGURAÇÕES:")
-    posts_per_site = int(input("   Quantos posts extrair de cada site? (padrão: 15): ") or "15")
-    posts_per_week = int(input("   Quantos posts publicar por semana? (padrão: 3): ") or "3")
     
-    style_options = {
-        "1": "informativo_engajador",
-        "2": "storytelling",
-        "3": "pratico_direto",
-        "4": "inspiracional"
-    }
-    
-    print("\n   Estilo de escrita:")
-    print("   1. Informativo e Engajador (recomendado)")
-    print("   2. Storytelling (narrativo)")
-    print("   3. Prático e Direto")
-    print("   4. Inspiracional")
-    
-    style_choice = input("   Escolha o estilo (1-4, padrão: 1): ") or "1"
-    style = style_options.get(style_choice, "informativo_engajador")
-    
-    print(f"\n   ✅ Configurado: {posts_per_site} posts/site, {posts_per_week} posts/semana, estilo '{style}'")
-    
-    # Confirmação
-    proceed = input("\n   🚀 Iniciar workflow? (S/n): ").lower()
+    if args.headless:
+        posts_per_site = args.posts_per_site
+        posts_per_week = args.posts_per_week
+        style = args.style
+        proceed = 's'
+        print(f"   [HEADLESS] Usando configurações padrão: {posts_per_site} posts/site, {posts_per_week} posts/semana, estilo '{style}'")
+    else:
+        print("Este script irá:")
+        print("  1. Fazer scraping dos blogs concorrentes")
+        print("  2. Reescrever o conteúdo com IA (Gemini)")
+        print("  3. Criar calendário editorial")
+        print("  4. Exportar posts prontos para publicação\n")
+        
+        posts_per_site = int(input("   Quantos posts extrair de cada site? (padrão: 15): ") or "15")
+        posts_per_week = int(input("   Quantos posts publicar por semana? (padrão: 3): ") or "3")
+        
+        style_options = {
+            "1": "informativo_engajador",
+            "2": "storytelling",
+            "3": "pratico_direto",
+            "4": "inspiracional"
+        }
+        
+        print("\n   Estilo de escrita:")
+        print("   1. Informativo e Engajador (recomendado)")
+        print("   2. Storytelling (narrativo)")
+        print("   3. Prático e Direto")
+        print("   4. Inspiracional")
+        
+        style_choice = input("   Escolha o estilo (1-4, padrão: 1): ") or "1"
+        style = style_options.get(style_choice, "informativo_engajador")
+        
+        print(f"\n   ✅ Configurado: {posts_per_site} posts/site, {posts_per_week} posts/semana, estilo '{style}'")
+        proceed = input("\n   🚀 Iniciar workflow? (S/n): ").lower()
+
     if proceed == 'n':
         print("❌ Cancelado pelo usuário")
         return
@@ -108,7 +128,12 @@ def main():
     
     # Pergunta quantos posts reescrever (pode ser menos que o total extraído)
     max_to_rewrite = len(all_posts)
-    num_to_rewrite = int(input(f"\n   Quantos posts reescrever? (máx: {max_to_rewrite}, padrão: todos): ") or str(max_to_rewrite))
+    
+    if args.headless:
+        num_to_rewrite = max_to_rewrite # Rewrite all in headless mode
+    else:
+        num_to_rewrite = int(input(f"\n   Quantos posts reescrever? (máx: {max_to_rewrite}, padrão: todos): ") or str(max_to_rewrite))
+    
     num_to_rewrite = min(num_to_rewrite, max_to_rewrite)
     
     posts_to_rewrite = all_posts[:num_to_rewrite]
@@ -133,8 +158,11 @@ def main():
     manager.posts = rewritten_posts  # Usa posts já em memória
     
     # Pergunta data de início
-    start_date_input = input("\n   Data de início (YYYY-MM-DD, Enter para próxima segunda): ").strip()
-    start_date = start_date_input if start_date_input else None
+    if args.headless:
+        start_date = None # Next monday default
+    else:
+        start_date_input = input("\n   Data de início (YYYY-MM-DD, Enter para próxima segunda): ").strip()
+        start_date = start_date_input if start_date_input else None
     
     # Cria calendário
     calendar = manager.create_publishing_schedule(
@@ -150,7 +178,8 @@ def main():
     # PASSO 4: EXPORTAÇÃO
     print_step(4, "EXPORTAÇÃO PARA O BLOG")
     
-    manager.export_to_blogdata("blog_posts_generated.ts")
+    # Always export to generated_blog_posts.ts in scripts folder
+    manager.export_to_blogdata("generated_blog_posts.ts")
     
     # RESUMO FINAL
     print_header("✅ WORKFLOW CONCLUÍDO COM SUCESSO!")
@@ -167,18 +196,9 @@ def main():
     print(f"   • rewritten_content/ - Posts reescritos pela IA")
     print(f"   • editorial_calendar.json - Calendário completo")
     print(f"   • editorial_calendar_summary.txt - Resumo visual")
-    print(f"   • blog_posts_generated.ts - Pronto para importar no blog")
+    print(f"   • generated_blog_posts.ts - Pronto para importar no blog")
     
-    print("\n🚀 PRÓXIMOS PASSOS:")
-    print("   1. Revise os posts reescritos em: rewritten_content/")
-    print("   2. Confira o calendário: editorial_calendar_summary.txt")
-    print("   3. Importe blog_posts_generated.ts no seu blogData.ts")
-    print("   4. Faça ajustes finais se necessário")
-    print("   5. Publique conforme o calendário!")
     
-    print("\n" + "=" * 80 + "\n")
-
-
 if __name__ == "__main__":
     try:
         main()

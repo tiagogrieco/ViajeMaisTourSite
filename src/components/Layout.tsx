@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         { name: 'Home', path: '/' },
         { name: 'Sobre', path: '/sobre' },
         { name: 'Pacotes', path: '/pacotes' },
-
+        { name: 'Loja 🛍️', path: '/loja-afiliados' },
         { name: 'Blog', path: '/blog' },
         { name: 'Quiz', path: '/quiz-destino' },
         { name: 'Calculadora', path: '/calculadora' },
