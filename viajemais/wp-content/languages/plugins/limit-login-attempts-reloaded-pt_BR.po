@@ -1,0 +1,367 @@
+# Translation of Plugins - Limit Login Attempts Reloaded &#8211; Login Security, Brute Force Protection, Firewall - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Limit Login Attempts Reloaded &#8211; Login Security, Brute Force Protection, Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-28 17:41:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded &#8211; Login Security, Brute Force Protection, Firewall - Stable (latest release)\n"
+
+#: views/app-widgets/event-log.php:24
+msgid "All attempts blocked by access rules are hidden by default. You can see the full log at this link."
+msgstr "Todas as tentativas bloqueadas por regras de acesso são ocultadas por padrão. Você pode ver o registro completo neste link."
+
+#: views/app-widgets/event-log.php:19
+msgid "Full Logs"
+msgstr "Registros completos"
+
+#: views/tab-settings.php:548
+msgid "You can use a shortcode here to insert links, for example, a link to your Privacy Policy page. <br>The shortcode is: [llar-link url=\"https://example.com\" text=\"Privacy Policy\"]"
+msgstr "Você pode usar um shortcode aqui para inserir links. Por exemplo, um link para sua página de Política de Privacidade.<br>O shortcode fica: [llar-link url=\"https://example.com\" text=\"Política de Privacidade\"]"
+
+#: views/app-widgets/country-access-rules.php:22
+msgid "these countries:"
+msgstr "estes países:"
+
+#: views/app-widgets/country-access-rules.php:14
+msgid "Country Access Rules"
+msgstr "Regras de acesso por país"
+
+#: core/Config.php:96
+msgid "By proceeding you understand and give your consent that your IP address and browser information might be processed by the security plugins installed on this site."
+msgstr "Ao continuar, você entende e dá seu consentimento que seu endereço IP e informações do navegador podem ser processados pelos plugins de segurança instalados neste site."
+
+#: views/tab-settings.php:533
+msgid "GDPR message"
+msgstr "Mensagem GDPR"
+
+#: views/chart-circle-failed-attempts-today.php:102
+#: views/chart-failed-attempts.php:36 views/chart-failed-attempts.php:121
+#: views/chart-failed-attempts.php:131
+msgid "Failed Login Attempts"
+msgstr "Tentativas de acesso que falharam"
+
+#: views/chart-circle-failed-attempts-today.php:93
+msgid "Failed Login Attempts Today"
+msgstr "Tentativas de acesso que falharam hoje"
+
+#: views/tab-dashboard.php:147
+msgid "Many options such as notifications, alerts, premium status, and more."
+msgstr "Muitas opções, como notificações, alertas, status premium e muito mais."
+
+#: views/tab-dashboard.php:143
+msgid "Global Options"
+msgstr "Opções globais"
+
+#: views/tab-dashboard.php:132
+msgid "Find the documentation and help you need."
+msgstr "Encontre a documentação e a ajuda que você precisa."
+
+#: core/LimitLoginAttempts.php:842 views/options-page.php:155
+#: views/tab-dashboard.php:128
+msgid "Help"
+msgstr "Ajuda"
+
+#: views/tab-dashboard.php:117
+msgid "View lockouts logs, block or whitelist usernames or IPs, and more."
+msgstr "Ver registros de bloqueios, nomes de usuário ou IPs bloqueados ou na lista branca, e muito mais."
+
+#: views/tab-dashboard.php:113
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: views/tab-dashboard.php:67 views/tab-settings.php:96
+msgid "Learn More"
+msgstr "Saiba mais"
+
+#: views/onboarding-popup.php:41
+msgid "Notifications"
+msgstr "Notificações"
+
+#: core/LimitLoginAttempts.php:453 views/tab-dashboard.php:97
+#: views/tab-dashboard.php:253
+msgid "Upgrade to Premium"
+msgstr "Atualize para o Premium"
+
+#: views/tab-dashboard.php:87
+msgid "As a free user, your local server is absorbing the traffic brought on by brute force attacks, potentially slowing down your website. Upgrade to Premium today to outsource these attacks through our cloud app, and slow down future attacks with advanced throttling."
+msgstr "Como um usuário gratuito, seu servidor local está absorvendo o tráfego causado por ataques de força bruta, potencialmente retardando seu site. Atualize para o Premium hoje, para terceirizar estes ataques através de nosso aplicativo de nuvem, e desacelere futuros ataques com aceleração avançada."
+
+#: views/tab-dashboard.php:83
+msgid "Premium Protection Disabled"
+msgstr "Proteção Premium desativada"
+
+#: views/tab-logs-local.php:88
+msgid "Safelist"
+msgstr "Lista segura"
+
+#: views/app-widgets/active-lockouts.php:22 views/app-widgets/event-log.php:38
+#: views/app-widgets/login-attempts.php:51
+msgid "IP"
+msgstr "IP"
+
+#: views/app-widgets/event-log.php:37 views/app-widgets/login-attempts.php:49
+msgid "Time"
+msgstr "Horário"
+
+#: core/LimitLoginAttempts.php:1973 core/LimitLoginAttempts.php:2047
+msgid "Settings saved."
+msgstr "Configurações salvas."
+
+#: core/LimitLoginAttempts.php:435 core/LimitLoginAttempts.php:816
+#: views/options-page.php:129
+msgid "Dashboard"
+msgstr "Painel de controle"
+
+#: views/tab-logs-local.php:142 views/tab-settings.php:475
+#: views/tab-settings.php:816
+msgid "Save Settings"
+msgstr "Salvar configurações"
+
+#: views/tab-settings.php:481
+msgid "General Settings"
+msgstr "Configurações gerais"
+
+#: core/LimitLoginAttempts.php:2206
+msgid "Maybe later"
+msgstr "Talvez mais tarde"
+
+#: core/LimitLoginAttempts.php:2205
+msgid "Don't show again"
+msgstr "Não mostrar novamente"
+
+#: core/LimitLoginAttempts.php:2207
+msgid "Leave a review"
+msgstr "Deixe um comentário"
+
+#: core/LimitLoginAttempts.php:2200
+msgid "Hey <strong>Limit Login Attempts Reloaded</strong> user!"
+msgstr "Olá usuário do <strong>Limit Login Attempts Reloaded</strong>!"
+
+#: core/LimitLoginAttempts.php:2201
+msgid "A <strong>crazy idea</strong> we wanted to share! What if we put an image from YOU on the <a href=\"https://wordpress.org/plugins/limit-login-attempts-reloaded/\" target=\"_blank\">LLAR page</a>?! (<a href=\"https://wordpress.org/plugins/hello-dolly/\" target=\"_blank\">example</a>) A drawing made by you or your child would cheer people up! Send us your drawing by <a href=\"mailto:wpchef.me@gmail.com\" target=\"_blank\">email</a> and we like it, we'll add it in the next release. Let's have some fun!"
+msgstr "Uma <strong>ideia maluca</strong> que nós queríamos compartilhar! E se colocarmos uma imagem SUA na <a href=\"https://wordpress.org/plugins/limit-login-attempts-reloaded/\" target=\"_blank\">página do LLAR</a>?! (<a href=\"https://wordpress.org/plugins/hello-dolly/\" target=\"_blank\">exemplo</a>) Um desenho feito por você ou seu filho alegraria as pessoas! Envie-nos seu desenho por <a href=\"mailto:wpchef.me@gmail.com\" target=\"_blank\">e-mail</a> e, se nós gostarmos dele, vamos adicioná-lo no próximo lançamento. Vamos nos divertir!"
+
+#: core/LimitLoginAttempts.php:2202
+msgid "We would really like to hear your feedback about the plugin! Please take a couple minutes to write a few words <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">here</a>. Thank you!"
+msgstr "Realmente gostaríamos de saber sua opinião sobre o plugin! Se puder gastar alguns minutos para deixar sua opinião <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">aqui</a>, ficaremos agradecidos."
+
+#: views/tab-debug.php:65
+msgid "Copy the contents of the window and provide to support."
+msgstr "Copie o conteúdo da janela e envie para o suporte."
+
+#: core/LimitLoginAttempts.php:837 views/options-page.php:151
+msgid "Debug"
+msgstr "Depurar"
+
+#: core/LimitLoginAttempts.php:436 core/LimitLoginAttempts.php:821
+#: views/options-page.php:133
+msgid "Settings"
+msgstr "Configurações"
+
+#: views/tab-settings.php:241
+msgid "Specify the origins you trust in order of priority, separated by commas. We strongly recommend that you <b>do not</b> use anything other than REMOTE_ADDR since other origins can be easily faked. Examples: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+msgstr "Especifique as origens em que você confia em ordem de prioridade, separadas por vírgulas. É altamente recomendável que você <b>não use</b> nada além de REMOTE_ADDR, uma vez que outras origens podem ser facilmente falsificadas. Exemplos: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+
+#: views/tab-settings.php:226
+msgid "Trusted IP Origins"
+msgstr "Origens de IP de confiança"
+
+#: views/tab-settings.php:594
+msgid "after"
+msgstr "depois"
+
+#: views/tab-settings.php:567 views/tab-settings.php:591
+msgid "Email to"
+msgstr "E-mail para"
+
+#: core/LimitLoginAttempts.php:1677
+msgid "<strong>ERROR</strong>: Incorrect email address or password."
+msgstr "<strong>ERRO</strong>: e-mail ou senha incorretos."
+
+#: views/tab-settings.php:522
+msgid "GDPR compliance"
+msgstr "Conformidade com GDPR"
+
+#: views/tab-logs-local.php:93 views/tab-logs-local.php:116
+msgid "One IP or IP range (1.2.3.4-5.6.7.8) per line"
+msgstr "Um IP ou faixa de IP (1.2.3.4-5.6.7.8) por linha"
+
+#: views/app-widgets/event-log.php:39 views/tab-logs-local.php:220
+msgid "Gateway"
+msgstr "Gateway"
+
+#: views/tab-logs-local.php:219
+msgid "Tried to log in as"
+msgstr "Tentou fazer login como"
+
+#: views/tab-logs-local.php:218
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: views/tab-logs-local.php:217
+msgid "Date"
+msgstr "Data"
+
+#: views/tab-settings.php:579
+msgid "Notify on lockout"
+msgstr "Notificar no bloqueio"
+
+#: views/tab-settings.php:191
+msgid "hours"
+msgstr "horas"
+
+#: views/tab-settings.php:162
+msgid "allowed retries"
+msgstr "tentativas permitidas"
+
+#: views/tab-settings.php:148
+msgid "Lockout"
+msgstr "Bloqueio"
+
+#: views/tab-settings.php:498
+msgid "Use global settings"
+msgstr "Usar configurações globais"
+
+#: views/tab-settings.php:493
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr "Se desativado, as configurações globais serão aplicadas forçosamente a toda a rede."
+
+#: views/tab-settings.php:492
+msgid "Let network sites use their own settings"
+msgstr "Permitir que os sites de rede usem suas próprias configurações"
+
+#: views/tab-logs-local.php:68
+msgid "Restore Lockouts"
+msgstr "Restaurar bloqueios"
+
+#: views/tab-logs-local.php:64
+msgid "Active lockouts"
+msgstr "Bloqueios ativos"
+
+#: views/tab-settings.php:175
+msgid "minutes lockout"
+msgstr "minutos de bloqueio"
+
+#: views/tab-settings.php:187
+msgid "lockouts increase lockout time to"
+msgstr "bloqueios aumentam o tempo de bloqueio em"
+
+#: views/tab-logs-local.php:57
+msgid "No lockouts yet"
+msgstr "Ainda não há bloqueios"
+
+#: views/tab-logs-local.php:45
+msgid "Total lockouts"
+msgstr "Total de bloqueios"
+
+#: views/tab-logs-local.php:35
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: core/LimitLoginAttempts.php:1901
+msgid "Cleared current lockouts"
+msgstr "Os bloqueios atuais foram apagados"
+
+#: core/LimitLoginAttempts.php:1894
+msgid "Reset lockout count"
+msgstr "Redefinir contagem de bloqueio"
+
+#: core/LimitLoginAttempts.php:1340
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
+
+#: core/LimitLoginAttempts.php:1333
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d hora"
+msgstr[1] "%d horas"
+
+#: core/Ajax.php:994
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "<strong>%d</strong> tentativa restante."
+msgstr[1] "<strong>%d</strong> tentativas restantes."
+
+#: views/tab-settings.php:597
+msgid "lockouts"
+msgstr "bloqueios"
+
+#: views/tab-logs-local.php:202
+msgid "Clear Log"
+msgstr "Limpar registro"
+
+#: views/tab-logs-local.php:194
+msgid "Lockout log"
+msgstr "Registro de bloqueios"
+
+#: views/tab-settings.php:204
+msgid "hours until retries are reset"
+msgstr "horas até que as tentativas sejam redefinidas"
+
+#: views/tab-logs-local.php:71
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "%d este IP está atualmente bloqueado para iniciar sessões"
+
+#: views/tab-logs-local.php:50
+msgid "Reset Counter"
+msgstr "Redefinir contador"
+
+#: views/tab-logs-local.php:53
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "%d bloqueio desde a última redefinição"
+msgstr[1] "%d bloqueios desde a última redefinição"
+
+#: core/LimitLoginAttempts.php:1680
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>ERRO</strong>: nome de usuário ou senha incorretos."
+
+#: core/LimitLoginAttempts.php:603 core/LimitLoginAttempts.php:1148
+#: core/LimitLoginAttempts.php:1640
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "Tente novamente em %d minuto."
+msgstr[1] "Tente novamente em %d minutos."
+
+#: core/LimitLoginAttempts.php:1625
+msgid "Please try again later."
+msgstr "Tente novamente."
+
+#: core/LimitLoginAttempts.php:601 core/LimitLoginAttempts.php:1146
+#: core/LimitLoginAttempts.php:1637
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "Tente novamente em %d hora."
+msgstr[1] "Tente novamente em %d horas."
+
+#: core/LimitLoginAttempts.php:594 core/LimitLoginAttempts.php:649
+#: core/LimitLoginAttempts.php:1139 core/LimitLoginAttempts.php:1558
+#: core/LimitLoginAttempts.php:1617
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>ERRO</strong>: muitas tentativas falhas de login."
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: limit-login-attempts-reloaded.php core/LimitLoginAttempts.php:194
+msgid "Limit Login Attempts Reloaded"
+msgstr "Limit Login Attempts Reloaded"
+
+#: views/tab-logs-local.php:101 views/tab-logs-local.php:124
+msgid "One Username per line"
+msgstr "Um nome de usuário por linha"
+
+#: core/LimitLoginAttempts.php:1887
+msgid "Cleared IP log"
+msgstr "Registro de IPs limpo"
+
+#: core/LimitLoginAttempts.php:1700
+msgid "WC Error"
+msgstr "Erro WC"

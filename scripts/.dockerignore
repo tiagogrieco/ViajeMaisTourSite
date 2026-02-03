@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.bat
+*.ps1
+*.sh
+test_*.py
+check_*.py
+debug_*.py
+deploy_*.py
+upload_*.py
+auto_*.py
+manage_*.py
+extract_*.py
+force_*.py
+list_*.py
+delete_*.py
+download_*.py
+zip_*.py
+trick_*.py
+update_feed.py
+
+# Keep only essential files
+!requirements.txt
+!Dockerfile

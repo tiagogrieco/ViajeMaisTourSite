@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Mala de Bordo 10KG (Anti-Roubo)",
+        "description": "Mala estilo zíper dupla camada, rodas duplas 360°. Perfeita para bagagem de mão.",
+        "price": 119.99,
+        "currency": "BRL",
+        "category": "Bagagem",
+        "image": "/assets/products/smart-suitcase.png",
+        "tags": [
+            "mala",
+            "shopee",
+            "promoção"
+        ],
+        "featured": true,
+        "affiliate_link": "https://s.shopee.com.br/3fxX6xXBY4"
+    },
+    {
+        "id": 2,
+        "name": "Adaptador Universal Global",
+        "description": "Compatível com mais de 150 países. Inclui 3 portas USB e 1 USB-C PD para carregamento rápido.",
+        "price": 89.90,
+        "currency": "BRL",
+        "category": "Tech",
+        "image": "/assets/products/adapter.jpg",
+        "tags": [
+            "tech",
+            "adaptador",
+            "essencial"
+        ],
+        "featured": true
+    },
+    {
+        "id": 3,
+        "name": "Kit Conforto Premium",
+        "description": "Almofada de pescoço em viscoelástico + Máscara 3D para dormir. Chegue descansado ao seu destino.",
+        "price": 129.90,
+        "currency": "BRL",
+        "category": "Conforto",
+        "image": "/assets/products/comfort-kit.jpg",
+        "tags": [
+            "conforto",
+            "voo",
+            "dormir"
+        ],
+        "featured": true
+    },
+    {
+        "id": 4,
+        "name": "Carteira RFID Anti-Furto",
+        "description": "Proteja seus dados e cartões com nossa carteira de couro legítimo com bloqueio RFID.",
+        "price": 149.90,
+        "currency": "BRL",
+        "category": "Segurança",
+        "image": "/assets/products/wallet.jpg",
+        "tags": [
+            "segurança",
+            "documentos"
+        ],
+        "featured": false
+    },
+    {
+        "id": 5,
+        "name": "Organizador de Malas (Kit 6 pçs)",
+        "description": "Maximize o espaço da sua mala com cubos organizadores de compressão.",
+        "price": 79.90,
+        "currency": "BRL",
+        "category": "Acessórios",
+        "image": "/assets/products/organizer.jpg",
+        "tags": [
+            "organização",
+            "mala"
+        ],
+        "featured": false
+    },
+    {
+        "id": 6,
+        "name": "Mala de Bordo 10KG (Oferta Especial)",
+        "description": "Mala estilo zíper dupla camada, rodas duplas 360°. Oportunidade extra.",
+        "price": 119.99,
+        "currency": "BRL",
+        "category": "Bagagem",
+        "image": "/assets/products/smart-suitcase.png",
+        "tags": [
+            "mala",
+            "shopee",
+            "promoção"
+        ],
+        "featured": true,
+        "affiliate_link": "https://s.shopee.com.br/4LDDuQK3E0"
+    }
+]

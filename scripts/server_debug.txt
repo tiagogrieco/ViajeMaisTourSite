@@ -1,0 +1,64 @@
+[2026-01-19T01:09:17.994044] SERVER MODULE IMPORTED. CWD: G:\Projetos Python\Sistema Viaje Mais Tour\ViajeMaisTourSite\scripts
+[2026-01-19T11:07:44.329317] SERVER STARTED. Runtime ID: aa7147fe-413b-4937. CWD: G:\Projetos Python\Sistema Viaje Mais Tour\ViajeMaisTourSite\scripts
+[2026-01-19T11:18:07.576990] SERVER STARTED. Runtime ID: ea1f669a-3546-48fd. CWD: G:\Projetos Python\Sistema Viaje Mais Tour\ViajeMaisTourSite\scripts
+[2026-01-19T11:24:04.480573] SERVER STARTED. Runtime ID: 72d165dd-29fe-41fd. CWD: G:\Projetos Python\Sistema Viaje Mais Tour\ViajeMaisTourSite\scripts
+[2026-01-19 11:24:52] DEBUG: Processing coverImage...
+[2026-01-19 11:24:52] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768795934-7367-content.jpg)
+[2026-01-19 11:24:52] DEBUG: Processing contentImages...
+[2026-01-19 11:24:52] DEBUG: Processing content image /assets/blog/paris-content-1439.jpg...
+[2026-01-19 11:24:52] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768832692-6220-content.jpg)
+[2026-01-19 11:24:52] DEBUG: Final Updates to be sent to script: {
+  "coverImage": "/assets/blog/upload-1768795934-7367-content.jpg",
+  "contentImages": {
+    "/assets/blog/paris-content-1439.jpg": "/assets/blog/upload-1768832692-6220-content.jpg"
+  }
+}
+[2026-01-19 11:25:46] DEBUG: Processing coverImage...
+[2026-01-19 11:25:46] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768795934-7367-content.jpg)
+[2026-01-19 11:25:46] DEBUG: Processing contentImages...
+[2026-01-19 11:25:46] DEBUG: Processing content image /assets/blog/upload-1768795933-4439-content.jpg...
+[2026-01-19 11:25:46] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768832746-1676-content.jpg)
+[2026-01-19 11:25:46] DEBUG: Processing content image /assets/blog/upload-1768832692-6220-content.jpg...
+[2026-01-19 11:25:46] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768832746-1050-content.jpg)
+[2026-01-19 11:25:46] DEBUG: Final Updates to be sent to script: {
+  "coverImage": "/assets/blog/upload-1768795934-7367-content.jpg",
+  "contentImages": {
+    "/assets/blog/upload-1768795933-4439-content.jpg": "/assets/blog/upload-1768832746-1676-content.jpg",
+    "/assets/blog/upload-1768832692-6220-content.jpg": "/assets/blog/upload-1768832746-1050-content.jpg"
+  }
+}
+[2026-01-19 11:29:47] DEBUG: Processing coverImage...
+[2026-01-19 11:29:47] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768832987-8288-cover.jpg)
+[2026-01-19 11:29:47] DEBUG: Final Updates to be sent to script: {
+  "coverImage": "/assets/blog/upload-1768832987-8288-cover.jpg"
+}
+[2026-01-19 11:32:20] DEBUG: Processing coverImage...
+[2026-01-19 11:32:20] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768832987-8288-cover.jpg)
+[2026-01-19 11:32:20] DEBUG: Processing contentImages...
+[2026-01-19 11:32:20] DEBUG: Processing content image /assets/blog/upload-1768795934-7367-content.jpg...
+[2026-01-19 11:32:20] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768833140-2080-content.jpg)
+[2026-01-19 11:32:20] DEBUG: Final Updates to be sent to script: {
+  "coverImage": "/assets/blog/upload-1768832987-8288-cover.jpg",
+  "contentImages": {
+    "/assets/blog/upload-1768795934-7367-content.jpg": "/assets/blog/upload-1768833140-2080-content.jpg"
+  }
+}
+[2026-01-19T11:39:52.304905] SERVER STARTED. Runtime ID: 02ab294c-3a9c-4b51. CWD: G:\Projetos Python\Sistema Viaje Mais Tour\ViajeMaisTourSite\scripts
+[2026-01-19 11:45:08] DEBUG: Processing coverImage...
+[2026-01-19 11:45:08] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768833908-3809-cover.jpg)
+[2026-01-19 11:45:08] DEBUG: Final Updates to be sent to script: {
+  "coverImage": "/assets/blog/upload-1768833908-3809-cover.jpg"
+}
+[2026-01-19T11:46:54.427247] SERVER STARTED. Runtime ID: a2b435c3-355a-49ab. CWD: G:\Projetos Python\Sistema Viaje Mais Tour\ViajeMaisTourSite\scripts
+[2026-01-19T11:56:30.458537] SERVER STARTED. Runtime ID: c58a9987-b2ac-45c4. CWD: G:\Projetos Python\Sistema Viaje Mais Tour\ViajeMaisTourSite\scripts
+[2026-01-19T12:19:37.340127] SERVER STARTED. Runtime ID: df784f94-c293-49bf. CWD: G:\Projetos Python\Sistema Viaje Mais Tour\ViajeMaisTourSite\scripts
+[2026-01-19 12:20:41] DEBUG: Processing coverImage...
+[2026-01-19 12:20:41] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768836041-7232-cover.jpg)
+[2026-01-19 12:20:41] DEBUG: Final Updates to be sent to script: {
+  "coverImage": "/assets/blog/upload-1768836041-7232-cover.jpg"
+}
+[2026-01-19 12:22:05] DEBUG: Processing coverImage...
+[2026-01-19 12:22:05] DEBUG: Image data does not start with data:image (First 50 chars: /assets/blog/upload-1768836125-7330-cover.jpg)
+[2026-01-19 12:22:05] DEBUG: Final Updates to be sent to script: {
+  "coverImage": "/assets/blog/upload-1768836125-7330-cover.jpg"
+}

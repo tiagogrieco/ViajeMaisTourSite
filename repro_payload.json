@@ -1,0 +1,6 @@
+{
+    "coverImage": "/assets/blog/upload-test-123.jpg",
+    "contentImages": {
+        "/assets/blog/paris-content-1936.jpg": "/assets/blog/upload-test-456.jpg"
+    }
+}
